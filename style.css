@@ -477,7 +477,7 @@ header .navbar ul li a:hover::before{
 .services .service-content{
     
     flex: 0 0 100%;
-    max-width: 99%;
+    max-width: 98%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
