@@ -12,6 +12,10 @@ body{
     
 }
 
+p.small{
+    font-size: 1px;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -322,7 +326,9 @@ header .navbar ul li a:hover::before{
 
 }
 
-
+.emailsmall{
+    font-size: 1px;
+}
 
 .about-me .about-content .img{
     flex: 0 0 33.33%;
@@ -702,6 +708,7 @@ font-size: 15px;
     box-shadow: 0 0 1.2rem rgba(0,0,0,.25);
     transition: all 1s ease;
     transform: scale(1.1);
+    
     
 
 
@@ -1480,6 +1487,12 @@ footer .social a:hover{
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .about-me .about-content .text .social-links{
+        padding-top: 25px;
+        padding-left: 20%;
+        
+       
+    }
 }
 
 @media(max-width:500px){
@@ -1511,6 +1524,12 @@ footer .social a:hover{
     .testimonials .testimonials-content .testi-slider .slide {
         flex-wrap: wrap;
     }
+    .about-me .about-content .text .social-links{
+        padding-top: 25px;
+        padding-left: 20%;
+        
+       
+    }
 
 }
 
@@ -1523,5 +1542,11 @@ footer .social a:hover{
    
     cursor: pointer;
 
+}
+.about-me .about-content .text .social-links{
+    padding-top: 25px;
+    padding-left: 20%;
+    
+   
 }
 }
